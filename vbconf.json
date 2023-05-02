@@ -1,0 +1,62 @@
+{
+    "meta": {
+        "name": "Test Voicebank",
+        "uuid": "0001aaaa",
+        "icon": "icon.png"
+    },
+    "origin": {
+        "author": {
+            "name": "OpenVBconf Committee",
+            "email": "openvb@expressivelabs.net",
+            "url": "https://openvb.mikoto.studio"
+        },
+        "application": "mikoto-studio",
+        "creation_date": "02-05-2023"
+    },
+    "libraries": [
+        {
+            "name": "Natural",
+            "uuid": "0001abab", 
+            "files": [
+                {
+                    "path": "ka.wav",
+                    "aliases": ["ka", "ka1", "- ka"],
+                    "pitch": 60,
+                    "analysis_files": {
+                        "frequency_analysis": "ka_wav.frq",
+                        "spectrum_analysis": "ka_wav.spec"
+                    },
+                    "intervals": {
+                        "consonant": {
+                            "start": 0,
+                            "end": 100
+                        },
+                        "vowel": {
+                            "start": 100,
+                            "end": 500
+                        },
+                        "overlap_begin": {
+                            "start": 0,
+                            "end": 20
+                        },
+                        "overlap_end": {
+                            "start": 500,
+                            "end": 550
+                        }
+                    },
+                    "labels": {
+                        "k": {
+                            "start": 0,
+                            "end": 100
+                        },
+                        "a": {
+                            "start": 100,
+                            "end": 500 
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+
+}
