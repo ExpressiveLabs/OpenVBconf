@@ -16,7 +16,8 @@
     "libraries": [
         {
             "name": "Natural",
-            "uuid": "0001abab", 
+            "uuid": "0001abab",
+            "base_path": "/natural",
             "files": [
                 {
                     "path": "ka.wav",
@@ -26,37 +27,61 @@
                         "frequency_analysis": "ka_wav.frq",
                         "spectrum_analysis": "ka_wav.spec"
                     },
-                    "intervals": {
-                        "consonant": {
-                            "start": 0,
-                            "end": 100
-                        },
-                        "vowel": {
-                            "start": 100,
-                            "end": 500
-                        },
-                        "overlap_begin": {
-                            "start": 0,
-                            "end": 20
-                        },
-                        "overlap_end": {
-                            "start": 500,
-                            "end": 550
-                        }
-                    },
                     "labels": {
                         "k": {
                             "start": 0,
-                            "end": 100
+                            "end": 100,
+                            "do_not_stretch": [0, 100]
                         },
                         "a": {
                             "start": 100,
-                            "end": 500 
+                            "end": 500,
+                            "do_stretch": [200, 470]
                         }
                     }
+                },
+                {
+                    "path": "ka_ka.wav",
+                    "aliases": ["-ka", "ka", "a k"],
+                    "pitch": 60,
+                    "analysis_files": {},
+                    "labels": [
+                        {
+                            "prev": "-",
+                            "curr": "k",
+                            "next": "a",
+
+                            "start": 0,
+                            "end": 100,
+
+                            "pitch": 60,
+
+                            "areas": {
+                                "stretch": [0, 0],
+                                "fade_in": [-20, 0],
+                                "fade_out": [],
+                                "repitch": [],
+
+                                "vibrato": []
+
+                            },
+                            "parameters": [
+                                {"velocity": 127},
+                                {"tension": 61}
+                            ]
+                        },
+                        {
+                            "prev": "k",
+                            "curr": "a",
+                            "next": "k",
+
+                            "start": 100,
+                            "end": 500,
+                            "do_stretch": [200, 470]
+                        }
+                    ]
                 }
             ]
         }
     ]
-
 }
