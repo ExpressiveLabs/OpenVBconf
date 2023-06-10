@@ -27,8 +27,12 @@
                         "frequency_analysis": "ka_wav.frq",
                         "spectrum_analysis": "ka_wav.spec"
                     },
-                    "labels": {
-                        "k": {
+                    "labels": [
+                        {
+                            "prev": "sil",
+                            "curr": "k",
+                            "next": "a",
+
                             "start": 0,
                             "end": 100,
 
@@ -36,7 +40,11 @@
                                 "stretch": [0, 0]
                             }
                         },
-                        "a": {
+                        {
+                            "prev": "k",
+                            "curr": "a",
+                            "next": "sil",
+
                             "start": 100,
                             "end": 500,
 
@@ -44,7 +52,7 @@
                                 "stretch": [200, 470]
                             }
                         }
-                    }
+                    ]
                 },
                 {
                     "path": "ka_ka.wav",
