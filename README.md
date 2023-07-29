@@ -14,3 +14,5 @@ A list of OpenVBconf implementations in different programming languages:
 <!-- - [OpenVBcpp](https://github.com/expressivelabs/openvbcpp) -->
 
 ### Contributors
+- PaintedCz (UTAU VCCV English)
+- Aku-P (Vocalo-p, developer)
