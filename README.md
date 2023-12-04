@@ -12,5 +12,7 @@ This repository contains a working copy of the standard OpenVBconf file format, 
 ### Implementations
 A list of OpenVBconf implementations in different programming languages:
 <!-- - [OpenVBcpp](https://github.com/expressivelabs/openvbcpp) -->
+- [`openvb-rs`](https://github.com/expressivelabs/openvb-rs): a Rust crate for parsing and generating OpenVBconf files (WIP)
+- [`openvb-python`](https://github.com/expressivelabs/openvb-python): a Python package for parsing OpenVBconf files (WIP)
 
 ### Contributors
