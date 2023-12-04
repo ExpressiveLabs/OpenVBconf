@@ -16,3 +16,6 @@ A list of OpenVBconf implementations in different programming languages:
 - [`openvb-python`](https://github.com/expressivelabs/openvb-python): a Python package for parsing OpenVBconf files (WIP)
 
 ### Contributors
+- Layetri (Founder and developer, ExpressiveLabs)
+- PaintedCz (UTAU VCCV English)
+- Aku-P (Vocalo-p, developer)
