@@ -73,11 +73,7 @@
                             "areas": {
                                 "stretch": [0, 0],
                                 "fade_in": [-20, 0],
-                                "fade_out": [],
-                                "repitch": [],
-
-                                "vibrato": []
-
+                                "fade_out": []
                             },
                             "parameters": [
                                 {"velocity": 127},
@@ -88,6 +84,48 @@
                             "prev": "k",
                             "curr": "a",
                             "next": "k",
+
+                            "start": 100,
+                            "end": 500,
+
+                            "areas": {
+                                "stretch": [200, 470]
+                            }
+                        }
+                    ]
+                },
+                
+                
+                {
+                    "path": "e_ne.wav",
+                    "aliases": ["e ne", "ne"],
+                    "pitch": 60,
+                    "analysis_files": {},
+                    "labels": [
+                        {
+                            "prev": "e",
+                            "curr": "n",
+                            "next": "e",
+
+                            "start": 0,
+                            "end": 100,
+
+                            "pitch": 60,
+
+                            "areas": {
+                                "stretch": [0, 0],
+                                "fade_in": [-20, 0],
+                                "fade_out": []
+                            },
+                            "parameters": [
+                                {"velocity": 127},
+                                {"tension": 61}
+                            ]
+                        },
+                        {
+                            "prev": "n",
+                            "curr": "e",
+                            "next": "-",
 
                             "start": 100,
                             "end": 500,
