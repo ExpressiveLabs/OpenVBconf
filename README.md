@@ -1,5 +1,5 @@
 ## OpenVBconf
-OpenVBconf is an effort by ExpressiveLabs, creators of [Mikoto Studio](https://mikoto.studio/), to develop an open voice library standard for community-driven singing synthesizers (such as UTAU, OpenUTAU, etc).
+OpenVBconf is an effort spearheaded by ExpressiveLabs, creators of [Mikoto Studio](https://mikoto.studio/), to develop an open voice library standard for community-driven singing synthesizers (such as UTAU, OpenUTAU, etc).
 
 ### Goals of the project
 - Provide a modern alternative to the aging `oto.ini` file standard for voicebank data annotation
@@ -16,6 +16,7 @@ A list of OpenVBconf implementations in different programming languages:
 - [`openvb-python`](https://github.com/expressivelabs/openvb-python): a Python package for parsing OpenVBconf files (WIP)
 
 ### Contributors
-- Layetri (Founder and developer, ExpressiveLabs)
-- PaintedCz (UTAU VCCV English)
+- [Layetri](https://github.com/layetri) (Founder and developer, ExpressiveLabs)
+- [PaintedCz](https://github.com/PaintedCz) (UTAU VCCV English)
+- [UtaUtaUtau](https://github.com/UtaUtaUtau) (pyUtau)
 - Aku-P (Vocalo-p, developer)
