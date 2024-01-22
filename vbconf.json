@@ -137,6 +137,12 @@
                     ]
                 }
             ]
+        },
+
+        {
+            "name": "Whisper",
+            "uuid": "0001abac",
+            "config": "config/whisper.json"
         }
     ]
 }

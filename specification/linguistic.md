@@ -1,4 +1,4 @@
-## Linguistic features of OpenVBconf
+# Linguistic features of OpenVBconf
 In short:
 - OpenVBconf uses the X-SAMPA phonetic alphabet for phoneme representation.
 - OpenVBconf is designed to work language-agnostically, aiming to provide a universal standard for voicebanks.
